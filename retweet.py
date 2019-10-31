@@ -3,6 +3,11 @@
 # Author: Tyler L. Jones || CyberVox
 # Date: Saturday, May 20th - 2017.
 # License: MIT License.
+'''
+retweet.py: updated to be #VetsWhoCode bot
+31 October 2019
+Vicki Langer
+'''
 
 import tweepy
 from time import sleep
@@ -17,7 +22,7 @@ api = tweepy.API(auth)
 # Where q='#example', change #example to whatever hashtag or keyword you want to search.
 # Where items(5), change 5 to the amount of retweets you want to tweet.
 # Make sure you read Twitter's rules on automation - don't spam!
-for tweet in tweepy.Cursor(api.search, q='#example').items(5):
+for tweet in tweepy.Cursor(api.search, q='#vetswhocode').items(5):
     try:
         print('\nRetweet Bot found tweet by @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
 
