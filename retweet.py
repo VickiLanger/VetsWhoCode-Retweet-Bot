@@ -21,6 +21,7 @@ api = tweepy.API(auth)
 user = api.me()
 print(user.name)
 
+
 def main():
     search_term = ("#VetsWhoCode", "#vetsWhoCode")
     number_of_tweets = 5
@@ -41,5 +42,5 @@ def main():
         except StopIteration:
             break
 
-main()
 
+main()
