@@ -6,7 +6,7 @@ Vicki Langer (@vicki_langer)
 
 import tweepy
 from time import sleep
-from keys import *
+
 from os import environ
 
 consumer_key = environ['consumer_key']
