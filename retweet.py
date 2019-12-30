@@ -36,8 +36,7 @@ def main():
             sleep(10)
 
         except tweepy.TweepError as error:
-            print('wtf, why isn\'t it working?')
-            print(error.reason)
+            print('wtf, why isn\'t it working?' + error.reason)
 
         except StopIteration:
             break
