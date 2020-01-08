@@ -1,7 +1,7 @@
 # Twitter Retweet Bot built with Python & Tweepy
 A Python-built Twitter retweet bot using Tweepy. Searches and retweets based on hashtag and keyword.
 
-[Building the #VetsWhoCode Retweet Bot](https://dev.to/vickilanger/vetswhocode-retweet-bot-3j97)
+I wrote this about my [Building the #VetsWhoCode Retweet Bot](https://dev.to/vickilanger/vetswhocode-retweet-bot-3j97)
 
 Reference
 ----------
